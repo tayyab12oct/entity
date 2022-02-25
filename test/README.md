@@ -1,4 +1,4 @@
-# Quasar App (entity)
+# Quasar App (test)
 
 A Quasar Framework app
 
