@@ -1,0 +1,49 @@
+// app global css in SCSS form
+
+.text-sm {
+  font-size: 13px;
+}
+
+.text-h3 {
+  line-height: 65px;
+}
+
+.rounded-full {
+  border-radius: 50px
+}
+
+.card-bottom-img {
+  border-radius: 50px !important;
+  right: -12px;
+  height: 60px;
+  width: 60px;
+  bottom: -17px;
+  background: #DFE0FE;
+}
+
+hr {
+  width: 45px;
+  height: 4px;
+  background: #3C3AC0;
+  border: none;
+  margin-left: 0;
+}
+
+.bg-main,
+.bg-private {
+  background: #2a2746;
+}
+
+@media (min-width: 768px) {
+  .bg-main {
+    background-image: url("assets/bg-main.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .bg-private {
+    background-image: url("assets/bg-digital-currency.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}
